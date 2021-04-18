@@ -19,7 +19,7 @@ public class Service {
 
     public Object getCacheInfo(String type) {
         Cache cacheInfo = CacheManager.getCacheInfo(type);
-        if (cacheInfo == null) {
+        if (cacheInfo ==   null) {
 
             /*shouda*/
             this.putCache();
